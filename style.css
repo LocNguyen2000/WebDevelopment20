@@ -14,6 +14,11 @@
     padding: 14px 16px; 
     text-decoration: none;
 }
+
+.url.home{
+    display: block; 
+    float: left; 
+}
 li a{
     display: block;
     color: #000;
