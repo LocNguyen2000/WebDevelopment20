@@ -20,10 +20,29 @@ li a{
     padding: 8px 16px;
     text-decoration: none;
 }
-li a:active{
+li a.active{
     display: block;
     color: white;
     padding: 8px 16px;
     text-decoration: none;
     background-color: #4CAF50;
+}
+
+.menu{
+    top: 50px; 
+    width: 300px; 
+    position: fixed; 
+    left: 0; 
+    height: 100%;
+}
+
+.menu ul{
+    list-style-type: none; 
+    margin: 0; 
+    padding: 0; 
+    width: 300px;
+    background-color: #f1f1f1; 
+    height: 100%; 
+    position: fixed; 
+    overflow: auto;
 }
